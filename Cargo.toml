@@ -1,5 +1,3 @@
-# In rustadex/Cargo.toml
-
 [package]
 name = "rustadex"
 version = "0.1.0"
