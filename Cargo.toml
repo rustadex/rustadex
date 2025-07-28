@@ -1,0 +1,11 @@
+# In rustadex/Cargo.toml
+
+[package]
+name = "rustadex"
+version = "0.1.0"
+edition = "2024"
+authors = ["qodeninja <1043235+qodeninja@users.noreply.github.com>"]
+description = "Placeholder for the Rustadex. The unified facade for the codex ecosystem of crates. Currently under active development."
+license = "MIT"
+repository = "https://github.com/rustadex/rustadex" # Important to have a link
+readme = "README.md"
