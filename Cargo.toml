@@ -1,6 +1,6 @@
 [package]
 name = "rustadex"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2024"
 authors = ["qodeninja <1043235+qodeninja@users.noreply.github.com>"]
 description = "Placeholder for the Rustadex framework. The unified facade for the rdx-* ecosystem of crates. Currently under active development."
