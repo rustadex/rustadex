@@ -13,6 +13,8 @@ The goal of this project is to provide a unified, ergonomic facade for a suite o
 
 This crate is currently under active development and is not yet functional. Please check the [repository](https://github.com/rustadex/rustadex) for updates.
 
-## Libraries
+## Rustadex Libraries
 
-* [RDX Stderr](https://github.com/rustadex/stderr)
+* [RDX Stderr](https://crates.io/crates/rdx-stderr)
+* [RDX Graphite](https://crates.io/crates/rdx-graphite)
+* [RDX Hyperclock](https://crates.io/crates/rdx-hyperclock)

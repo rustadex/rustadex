@@ -1,7 +1,7 @@
 [package]
 name = "rustadex"
-version = "0.1.2"
-edition = "2024"
+version = "0.2.0"
+edition = "2021"
 authors = ["qodeninja <1043235+qodeninja@users.noreply.github.com>"]
 description = "Placeholder for the Rustadex framework. The unified facade for the rdx-* ecosystem of crates. Currently under active development."
 license = "MIT"
@@ -16,3 +16,15 @@ path = "src/lib.rs"
 
 
 [dependencies]
+stderr     = { package = "rdx-stderr", version = "0.5" }
+graphite   = { package = "rdx-graphite", version = "0.1" }
+hyperclock = { package = "rdx-hyperclock", version = "0.3" }
+
+
+[workspace]
+members = [
+  "rdx",
+  "rdx-stderr",
+  "rdx-graphite",
+  "rdx-hyperclock"
+]
