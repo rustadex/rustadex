@@ -21,10 +21,3 @@ graphite   = { package = "rdx-graphite", version = "0.1" }
 hyperclock = { package = "rdx-hyperclock", version = "0.3" }
 
 
-[workspace]
-members = [
-  "rdx",
-  "rdx-stderr",
-  "rdx-graphite",
-  "rdx-hyperclock"
-]
